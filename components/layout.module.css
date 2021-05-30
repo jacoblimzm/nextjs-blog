@@ -1,0 +1,21 @@
+/* 
+component styling using CSS Modules
+https://nextjs.org/learn/basics/assets-metadata-css/css-styling 
+CSS Modules are useful because they scope styles at the component level
+*/
+
+.container {
+  max-width: 36rem;
+  padding: 0 1rem;
+  margin: 3rem auto 6rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+}
